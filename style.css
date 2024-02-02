@@ -1,0 +1,32 @@
+body {
+    background-color: burlywood;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    
+}
+
+#calculator {
+    background-color: brown;
+    display: inline-block;
+    text-align: left;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input, button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+input {
+    width: 200px;
+}
+
+button {
+    width: 50px;
+    cursor: pointer;
+}
